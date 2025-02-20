@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>📌 My To-Do List</h2>
+
+
+        <button id="modeToggle">🌙</button>
+
+        <!-- ✅ حقل إدخال واحد + زرين -->
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="أدخل المهمة أو ابحث...">
+            <button onclick="addTask()">Add</button>
+            <button onclick="searchTask()">Search</button>
+        </div>
+
+        <!-- ✅ زر إعادة تعيين البحث -->
+        <button class="reset-btn" onclick="resetSearch()">Show List</button>
+
+        <!-- ✅ قائمة المهام -->
+        <ol id="taskList"></ol>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
