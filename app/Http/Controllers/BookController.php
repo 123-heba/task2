@@ -19,11 +19,13 @@ class BookController extends Controller
            {
             $name=$request->name;
             $description=$request->description;
+            $author= $request->author;
             $price=$request->price;
             
             $data=[
                 'name'=>$name,
                 'description'=>$description,
+                'author' => $author,
                 'price'=>$price
              
             ];

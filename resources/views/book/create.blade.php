@@ -22,6 +22,12 @@
             <textarea name="description" rows="1"cols="15" > </textarea>
             <br>
             <br>
+            <label for="author">Author:</label>
+            <input type="text" name="author" id="author" required>
+
+            <br>
+            <br>
+
             <label for="title">Price:</label>
             <input type="number" name="price">
             <br>
